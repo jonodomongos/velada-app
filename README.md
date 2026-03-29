@@ -1,44 +1,57 @@
-# velada-app
+# 🥊 Velada VI - Mini Web
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicación web desarrollada con Vue 3 que permite visualizar los combates de La Velada VI.
 
-## Recommended IDE Setup
+## Demo
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Aplicación en vivo:
+https://velada-app-gamma.vercel.app/
 
-## Recommended Browser Setup
+Código fuente:
+https://github.com/jonodomongos/velada-app
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Descripción
 
-## Customize configuration
+Esta aplicación permite:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Consultar el listado de combates
+- Ver detalles de cada combate
+- Navegar entre vistas de forma dinámica
 
-## Project Setup
+Se ha desarrollado como proyecto práctico para afianzar conocimientos de desarrollo frontend con Vue.
 
-```sh
-npm install
-```
+## Tecnologías utilizadas
 
-### Compile and Hot-Reload for Development
+- Vue 3
+- Vue Router
+- JavaScript
+- HTML5
+- CSS3
 
-```sh
-npm run dev
-```
+## Estructura del proyecto
 
-### Compile and Minify for Production
+- `views/` → páginas principales (Home, Combates, Detalle)
+- `components/` → componentes reutilizables
+- `data/` → datos simulados de combates
+- `router/` → configuración de rutas
 
-```sh
-npm run build
-```
+## Funcionalidades
 
-### Lint with [ESLint](https://eslint.org/)
+- Listado dinámico de combates
+- Navegación por rutas (`/fights`, `/fights/:id`)
+- Visualización de información detallada
+- Diseño limpio y centrado en la experiencia de usuario
 
-```sh
-npm run lint
-```
+## Objetivo
+
+Este proyecto forma parte de mi aprendizaje en desarrollo web, aplicando conceptos como:
+
+- Componentes en Vue
+- Routing
+- Estructuración de aplicaciones frontend
+- Separación de lógica y presentación
+
+## Autor
+
+Jonatan Rodríguez García  
+👉 https://github.com/jonodomongos
